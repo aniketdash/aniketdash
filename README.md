@@ -27,6 +27,15 @@ class About extends Me
             Aws::class,
         ];
     }
+    
+    public function currentProject(){
+        return [Search performance uisng 
+                Amazon Api Gateway,
+                Lambda fuctions,
+                Amazon S3,
+                Amazon SQS,
+                Amazon Cognito]
+    }
 
     public function getFutureGoal()
     {
