@@ -29,7 +29,8 @@ class About extends Me
     }
     
     public function currentProject(){
-        return [Search performance uisng 
+        return [Search performance uisng
+                Java SDK,
                 Amazon Api Gateway,
                 Lambda fuctions,
                 Amazon S3,
