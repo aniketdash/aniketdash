@@ -30,11 +30,11 @@ class About extends Me
     }
     
     public function currentProject(){
-return ["Building higly scalable
-cloud based solutions to secure coustomer buisness
-apllication deployed on cloud and provide customers
-with valuable netowrk telemetry insigts using
-Golang and multiple cloud SDKs"]          
+        return
+        "Building higly scalable cloud based solutions
+        to secure coustomer buisness apllication deployed
+        on cloud and provide customers with valuable netowrk
+        telemetry insigts using Golang and multiple cloud SDKs"        
     }
 
     public function getFutureGoal()
