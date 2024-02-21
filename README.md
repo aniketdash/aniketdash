@@ -8,9 +8,9 @@ class About extends Me
     public function getWorkplace()
     {
         return [
-            'University' => [
-                'name' => 'University of Florida',
-                'position' => 'Grad student'         
+            'Cisco Sytems Inc' => [
+                'Project' => 'Cisco Secure Workload',
+                'position' => 'Software Engineer'         
             ]
         ];
     }
@@ -19,23 +19,22 @@ class About extends Me
     {
         return [
             Java::class,
-            Javascript::class,
+            Go-lang::class,
+            AWS::class,
+            Azure::class,
+            GCP::class
             Nodejs::class,
             Express::class,
             React::class,
-            OCI::class,
-            Aws::class,
         ];
     }
     
     public function currentProject(){
-        return [Search performance uisng
-                Java SDK,
-                Amazon Api Gateway,
-                Lambda fuctions,
-                Amazon S3,
-                Amazon SQS,
-                Amazon Cognito]
+return ["Building higly scalable
+cloud based solutions to secure coustomer buisness
+apllication deployed on cloud and provide customers
+with valuable netowrk telemetry insigts using
+Golang and multiple cloud SDKs"]          
     }
 
     public function getFutureGoal()
